@@ -36,5 +36,9 @@ $(function () {
                 };
             };
         };
+
+
+        let lastSevenChar = hash.substr(-7);
+        console.log(lastSevenChar);
     })
 });
